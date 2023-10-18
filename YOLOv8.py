@@ -2,7 +2,7 @@
 import cv2
 from ultralytics import YOLO
 
-model = YOLO('yolov8n-face.pt')
+model = YOLO('./yolov8-face/yolov8n-face.pt')
 
 # Initialize the video capture object (0 is usually the default camera)
 cap = cv2.VideoCapture(0)
