@@ -27,6 +27,12 @@ conda install -c "conda-forge/label/cf202003" opencv -y
 conda install -c "conda-forge/label/gcc7" opencv -y
 conda install -c michael_wild opencv-contrib -y
 conda install -c conda-forge ultralytics -y
+conda install -c pytorch pytorch -y
+conda install -c pytorch torchvision -y
+conda install -c conda-forge lap -y
+conda install -c "conda-forge/label/cf201901" lap -y
+conda install -c "conda-forge/label/cf202003" lap -y
+conda install -c "conda-forge/label/gcc7" lap -y
 conda install -c anaconda numpy -y
 conda install spyder-kernels=2.4 -y
 conda install -c anaconda ipykernel -y
