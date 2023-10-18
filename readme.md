@@ -1,3 +1,7 @@
+# Raspberry Pi Must Read
+
+If you got This Error `Segmentation fault (core dumped)` Please Read [This](https://github.com/ultralytics/ultralytics/issues/5274)
+
 # Ubuntu Install yolov8 & OpenCV
 
 ```bash
