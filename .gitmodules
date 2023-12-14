@@ -1,0 +1,6 @@
+[submodule "ultralytics"]
+	path = ultralytics
+	url = git@github.com:ultralytics/ultralytics.git
+[submodule "yolov8-face"]
+	path = yolov8-face
+	url = git@github.com:derronqi/yolov8-face.git
