@@ -5,8 +5,8 @@ If you got This Error `Segmentation fault (core dumped)` Please Read [This](http
 # Ubuntu Install yolov8 & OpenCV
 
 ```bash
-pip install opencv-python
-pip install ultralytics
+pip3 install opencv-python
+pip3 install ultralytics
 ```
 
 # Ubuntu Install Spyder
