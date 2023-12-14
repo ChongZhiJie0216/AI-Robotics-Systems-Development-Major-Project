@@ -21,5 +21,5 @@ AI-Robotics-Systems-Development-Major-Project/
 
 ## References
 
-[yolov8-face](https://github.com/derronqi/yolov8-face)
-[ultralytics](https://github.com/ultralytics/ultralytics)
+*   [yolov8-face](https://github.com/derronqi/yolov8-face)
+*   [ultralytics](https://github.com/ultralytics/ultralytics)
