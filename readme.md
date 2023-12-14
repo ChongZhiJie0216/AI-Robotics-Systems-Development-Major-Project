@@ -17,7 +17,7 @@ AI-Robotics-Systems-Development-Major-Project/
 └── yolov8-train              <-- Training YOLO folder
 
 ```
-# Any About Install & Problem Please Visit **`Guide&Instalation`** Folder
+# Any About Install & Problem Please Visit **[Guide&Instalation](https://github.com/ChongZhiJie0216/AI-Robotics-Systems-Development-Major-Project/tree/main/Guide%26Instalation)** Folder
 
 ## References
 
