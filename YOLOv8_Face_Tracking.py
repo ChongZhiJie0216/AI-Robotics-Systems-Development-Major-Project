@@ -1,4 +1,4 @@
-#计算人脸大小
+
 import cv2
 from ultralytics import YOLO
 
@@ -21,7 +21,7 @@ while cap.isOpened():
         annotated_frame = results[0].plot()
 
         # Display the annotated frame
-        cv2.imshow("YOLOv8 Tracking", annotated_frame)
+        cv2.imshow("YOLOv8 Face Tracking", annotated_frame)
 
         # Break the loop if 'q' is pressed
         if cv2.waitKey(1) & 0xFF == ord("q"):
@@ -33,3 +33,4 @@ while cap.isOpened():
 # Release the video capture object and close the display window
 cap.release()
 cv2.destroyAllWindows()
+
