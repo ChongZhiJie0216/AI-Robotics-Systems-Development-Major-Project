@@ -14,7 +14,7 @@ AI-Robotics-Systems-Development-Major-Project/
 ├── ultralytics
 ├── yolov8-face               
 ├── YOLOv8_Face_Tracking.py
-└── yolov8-train               <-- Training YOLO folder
+└── yolov8-train              <-- Training YOLO folder
 
 ```
 # Any About Install & Problem Please Visit **`Guide&Instalation`** Folder
