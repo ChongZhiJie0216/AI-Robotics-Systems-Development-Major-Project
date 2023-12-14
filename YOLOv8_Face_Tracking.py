@@ -1,12 +1,13 @@
-
 import cv2
 from ultralytics import YOLO
 
 model = YOLO('./model/yolov8n-face.pt')
 
-# Initialize the video capture object (0 is usually the default camera)
-cap = cv2.VideoCapture(0)
-
+# Initialize the video capture object
+# 0 - DefaulWebCam(LaptopBuildIN)
+# 1 - Unknow Camera
+# 2 - OBS VirtualCamera
+cap = cv2.VideoCapture(2)
 
 # Check if the camera is opened successfully
 while cap.isOpened():

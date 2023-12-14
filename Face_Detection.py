@@ -1,8 +1,10 @@
-#计算人脸大小
 import cv2
 
-# Initialize the video capture object (0 is usually the default camera)
-cap = cv2.VideoCapture(0)
+# Initialize the video capture object
+# 0 - DefaulWebCam(LaptopBuildIN)
+# 1 - Unknow Camera
+# 2 - OBS VirtualCamera
+cap = cv2.VideoCapture(2)
 
 # Check if the camera is opened successfully
 if not cap.isOpened():
@@ -36,10 +38,6 @@ while True:
         eyes = eye_cascade.detectMultiScale(roi_gray)
         for (ex, ey, ew, eh) in eyes:
             cv2.rectangle(roi_color, (ex, ey), (ex+ew, ey+eh), (0, 255, 0), 2)
-
-        # Calculate the area of the face
-        face_area = w * h
-        cv2.putText(frame, f'Face Area: {face_area}', (x, y-10), cv2.FONT_HERSHEY_SIMPLEX, 0.5, (255, 255, 255), 2)
 
     # Display the frame with detected faces and eyes
     cv2.imshow('Video with Face and Eye Detection', frame)
