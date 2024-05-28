@@ -43,7 +43,7 @@ conda install -c anaconda ipykernel -y
 python -m ipykernel install --user --name=ultralytics-env
 ```
 
-# YoLov8 on Anaconda Env Install indows Linux with CUDA
+# YoLov8 on Anaconda Env Install on Linux with CUDA
 > [!WARNING]
 > Driver Version must >= CUDA Version
 
