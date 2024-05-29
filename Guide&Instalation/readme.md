@@ -45,7 +45,8 @@ python -m ipykernel install --user --name=ultralytics-env
 
 # YoLov8 on Anaconda Env Install on Linux with CUDA
 > [!WARNING]
-> Driver Version must >= CUDA Version
+> Driver Version must >= CUDA Toolkit Version
+> CUDA Toolkit Install: [LINK](https://developer.nvidia.com/cuda-downloads?target_os=Linux&target_arch=x86_64&Distribution=Ubuntu&target_version=22.04&target_type=deb_local)
 
 > [!NOTE]
 > All this Env Test on my VM using VGPU
