@@ -68,9 +68,7 @@ conda install -c "conda-forge/label/gcc7" lap -y
 conda install -c anaconda numpy -y
 conda install spyder-kernels=2.4 -y
 conda install -c anaconda ipykernel -y
-conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch-nightly -c nvidia
+conda install pytorch torchvision torchaudio pytorch-cuda=12.4 -c pytorch-nightly -c nvidia -y
 python -m ipykernel install --user --name=ultralytics-env
 ```
-
-## Example output
 ![alt text](image.png)
